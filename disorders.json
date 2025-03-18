@@ -1,0 +1,663 @@
+[
+    {
+        "category": "Neurodevelopmental Disorders",
+        "disorders": [
+            {
+                "id": "adhd",
+                "name": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+                "criteria": [
+                    "Often fails to give close attention to details or makes careless mistakes in schoolwork, work, or other activities.",
+                    "Often has difficulty sustaining attention in tasks or play activities.",
+                    "Often does not seem to listen when spoken to directly.",
+                    "Often does not follow through on instructions and fails to complete schoolwork, chores, or work tasks.",
+                    "Often has difficulty organizing tasks and activities.",
+                    "Often avoids or dislikes engaging in tasks requiring sustained mental effort.",
+                    "Often loses things necessary for tasks or activities (e.g., school materials, keys, paperwork).",
+                    "Is often easily distracted by extraneous stimuli.",
+                    "Is often forgetful in daily activities."
+                ]
+            },
+            {
+                "id": "specific-learning-disorder",
+                "name": "Specific Learning Disorder",
+                "criteria": [
+                    "Difficulties learning and using academic skills, as indicated by at least one of the following symptoms.",
+                    "Inaccurate or slow and effortful word reading.",
+                    "Difficulty understanding the meaning of what is read.",
+                    "Difficulties with spelling and written expression.",
+                    "Difficulties mastering number sense, number facts, or calculation.",
+                    "Difficulties with mathematical reasoning."
+                ]
+            },
+            {
+                "id": "dcd",
+                "name": "Developmental Coordination Disorder (DCD)",
+                "criteria": [
+                    "Clumsiness (e.g., frequently dropping objects, bumping into things).",
+                    "Slowness and inaccuracy in motor skill performance, such as:",
+                    "Difficulty catching or throwing objects.",
+                    "Poor handwriting or trouble using scissors and cutlery.",
+                    "Struggles with riding a bike.",
+                    "Difficulty participating in sports and other physical activities.",
+                    "Persistent interference in daily life activities, including:",
+                    "Challenges in self-care tasks (e.g., dressing, buttoning clothes, using utensils).",
+                    "Poor academic performance due to motor difficulties (e.g., slow or illegible handwriting).",
+                    "Impaired participation in leisure activities and social interactions."       
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Psychotic Disorders",
+        "disorders": [
+            {
+                "id": "delusional-disorder",
+                "name": "Delusional Disorder",
+                "criteria": [
+                    "Erotomanic Type – Belief that another person, usually of higher status, is in love with them.",
+                    "Grandiose Type – Belief in possessing extraordinary talent, knowledge, or insight.",
+                    "Jealous Type – Belief that a spouse or partner is unfaithful without evidence.",
+                    "Persecutory Type – Belief of being targeted, harassed, spied on, or conspired against.",
+                    "Somatic Type – Belief that the body is diseased, infected, or experiencing abnormal sensations.",
+                    "Mixed Type – Combination of different types without one dominating.",
+                    "Unspecified Type – When the delusional belief does not clearly fit into a specific category."
+                ]
+            },
+            {
+                "id": "brief-psychotic-disorder",
+                "name": "Brief Psychotic Disorder",
+                "criteria": [
+                    "Delusions – Strong, false beliefs that are resistant to reasoning.",
+                    "Hallucinations – Perceptions of voices, visions, or sensations that are not real.",
+                    "Disorganized speech – Incoherent, illogical, or fragmented speech.",
+                    "Disorganized or catatonic behavior – Unpredictable agitation, unusual postures, or lack of movement."
+                ]
+            },
+            {
+                "id": "schizophrenia",
+                "name": "Schizophrenia",
+                "criteria": [
+                    "Delusions – Strong false beliefs that are resistant to evidence or reasoning.",
+                    "Hallucinations – Perceiving things that are not present, such as hearing voices.",
+                    "Disorganized speech – Incoherent, illogical, or fragmented speech.",
+                    "Grossly disorganized or catatonic behavior – Unpredictable agitation, inappropriate posture, or complete lack of movement.",
+                    "Negative symptoms – Lack of emotional expression, motivation, or speech."       
+                ]
+            }, 
+            {
+                "id": "schizoaffective-disorder",
+                "name": "Schizoaffective Disorder",
+                "criteria": [
+                    "Schizophrenia Symptoms (Criterion A)",
+                    "Delusions – Strong, false beliefs resistant to reasoning.",
+                    "Hallucinations – Perceptions of voices, visions, or sensations that are not real.",
+                    "Disorganized speech – Incoherent or illogical communication.",
+                    "Disorganized or catatonic behavior – Unpredictable agitation, unusual postures, or immobility.",
+                    "Negative symptoms – Diminished emotional expression or motivation.",
+                    "Major Mood Episode (Depressive or Manic Episode)",
+                    "Depressive Episode (required feature in Depressive Type):",
+                    "Depressed mood most of the day, nearly every day.",
+                    "Loss of interest in activities.",
+                    "Significant changes in appetite or weight.",
+                    "Insomnia or excessive sleeping.",
+                    "Fatigue or loss of energy.",
+                    "Feelings of worthlessness or excessive guilt.",
+                    "Difficulty concentrating or indecisiveness.",
+                    "Thoughts of death or suicidal ideation.",
+                    "Manic Episode (only present in Bipolar Type):",
+                    "Elevated or irritable mood for at least one week.",
+                    "Increased energy and activity.",
+                    "Inflated self-esteem or grandiosity.",
+                    "Pressured speech or rapid talking.",
+                    "Racing thoughts.",
+                    "Risky or impulsive behaviors."       
+                ]
+            },
+            {
+                "id": "substance/medication-induced-psychotic-disorder",
+                "name": "Substance/Medication-Induced Psychotic Disorder",
+                "criteria": [
+                    "Delusions – Strong, false beliefs resistant to evidence or reasoning.",
+                    "Hallucinations – Perceiving non-existent sounds, visions, or sensations.",
+                    "Disorganized or abnormal psychomotor behavior – Agitation or unusual body movements.",
+                    "Negative symptoms – Reduced emotional expression or motivation."       
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Mood Disorders",
+        "disorders": [
+            {
+                "id": "bipolar-I-disorder",
+                "name": "Bipolar I Disorder",
+                "criteria": [
+                    "Inflated self-esteem or grandiosity",
+                    "Decreased need for sleep (feels rested after very little sleep)",
+                    "Excessive talking or pressured speech",
+                    "Racing thoughts or flight of ideas",
+                    "Easily distracted by irrelevant stimuli",
+                    "Increased goal-directed activity or purposeless agitation",
+                    "Engaging in risky behaviors (e.g., reckless spending, sexual indiscretions)",
+                    "Symptoms do not cause severe impairment in functioning.",
+                    "The episode is observable by others, but hospitalization is not required.",
+                    "No psychotic features; if present, the episode is considered manic.",
+                    "Depressed mood (feeling sad, hopeless, or empty)",
+                    "Loss of interest or pleasure in activities",
+                    "Significant weight/appetite change",
+                    "Insomnia or hypersomnia",
+                    "Psychomotor agitation or retardation",
+                    "Fatigue or loss of energy",
+                    "Feelings of worthlessness or guilt",
+                    "Difficulty concentrating or making decisions",
+                    "Suicidal thoughts or attempts"
+                ]
+            },
+            {
+                "id": "bipolar-II-disorder",
+                "name": "Bipolar II Disorder",
+                "criteria": [
+                    "Inflated self-esteem or grandiosity",
+                    "Decreased need for sleep (feels rested after only a few hours)",
+                    "More talkative than usual or pressure to keep talking",
+                    "Flight of ideas or racing thoughts",
+                    "Easily distracted by external stimuli",
+                    "Increased goal-directed activity or psychomotor agitation",
+                    "Engaging in risky behaviors (e.g., reckless spending, impulsive decisions)",
+                    "Depressed mood (feeling sad, hopeless, or empty)",
+                    "Loss of interest or pleasure in most activities",
+                    "Significant weight or appetite change",
+                    "Insomnia or excessive sleeping",
+                    "Psychomotor agitation or slowing",
+                    "Fatigue or loss of energy",
+                    "Feelings of worthlessness or excessive guilt",
+                    "Difficulty concentrating or making decisions",
+                    "Suicidal thoughts, ideation, or attempts"
+                ]
+            },
+            {
+                "id": "disruptive-mood-dysregulation-disorder",
+                "name": "Disruptive Mood Dysregulation Disorder (DMDD)",
+                "criteria": [
+                    "Severe recurrent temper outbursts: These can be verbal (e.g., rages) or behavioral (e.g., aggression toward people or property) and are grossly out of proportion in intensity or duration to the situation.",
+                    "Inconsistent with developmental level: The temper outbursts a",
+                    "Irritable or angry mood: The individual has a persistent irritable or angry mood that is observable by others.",
+                    "Duration of symptoms: Symptoms have persisted for 12 months or more, with no period lasting 3 consecutive months without symptoms.",
+                    "Presence across multiple settings: Symptoms must be present in at least two of three settings (home, school, or with peers) and should be severe in at least one setting.",
+                    "Age requirement: Diagnosis should not be made before 6 years old or after 18 years old.",
+                    "Onset: The age at onset is before 10 years.",
+                    "No manic or hypomanic episodes: The individual has never experienced a distinct period that meets the criteria for a manic or hypomanic episode."       
+                ]
+            },
+            {
+                "id": "major-depressive-disorder",
+                "name": "Major Depressive Disorder (MDD)",
+                "criteria": [
+                    "Depressed mood most of the day, nearly every day (e.g., feeling sad, empty, or hopeless). In children and adolescents, irritability may be observed.",
+                    "Loss of interest or pleasure in most activities most of the day.",
+                    "Significant weight loss or gain (e.g., >5% change in body weight in a month), or change in appetite. In children, consider failure to make expected weight gain.",
+                    "Insomnia or hypersomnia (excessive sleep) nearly every day.",
+                    "Psychomotor agitation or retardation (observable by others) – restlessness or physical slowing down.",
+                    "Fatigue or loss of energy nearly every day.",
+                    "Feelings of worthlessness or excessive guilt, which may be delusional.",
+                    "Diminished ability to think or concentrate, or indecisiveness, nearly every day.",
+                    "Recurrent thoughts of death, suicidal ideation, or suicide attempt."       
+                ]
+            },
+            {
+                "id": "substance/medication-induced-depressive-disorder",
+                "name": "Substance/Medication-Induced Depressive Disorder",
+                "criteria": [
+                    "Prominent and persistent depressive mood: Depressed mood or markedly diminished interest in most activities.",
+                    "Symptoms develop during or soon after substance intoxication, withdrawal, or medication exposure.",
+                    "Duration of symptoms: The depressive symptoms persist long enough to cause clinically significant distress or impairment.",
+                    "Exclusion: The depression cannot be explained by another depressive disorder or other medical conditions."       
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Anxiety Disorders",
+        "disorders": [
+            {
+                "id": "separation-anxiety-disorder",
+                "name": "Separation Anxiety Disorder",
+                "criteria": [
+                    "Excessive distress during separation or anticipation of separation.",
+                    "Persistent fear or worry about attachment figures or the separation itself.",
+                    "Physical symptoms like stomachaches or headaches in response to separation.",
+                    "Avoidance behaviors, such as reluctance to go out or sleep away from home."
+                ]
+            },
+            {
+                "id": "specific-phobia",
+                "name": "Specific Phobia",
+                "criteria": [
+                    "Marked fear or anxiety about a specific object or situation (e.g., flying, heights, animals, blood).",
+                    "Immediate fear or anxiety when exposed to the phobic object or situation.",
+                    "Avoidance of the phobic stimulus, or enduring it with intense fear or anxiety.",
+                    "The fear is disproportionate to the actual threat or context.",
+                    "The symptoms persist for 6 months or longer.",
+                    "The disorder causes clinically significant distress or impairment in functioning.",
+                    "The symptoms are not better explained by another mental disorder (e.g., agoraphobia, obsessive-compulsive disorder)."
+                ]
+            },
+            {
+                "id": "social-anxiety-disorder",
+                "name": "Social Anxiety Disorder",
+                "criteria": [
+                    "Marked fear or anxiety about one or more social situations, such as interacting with others, being observed, or performing in front of others.",
+                    "Fear of negative evaluation: Concern that the individual will act in a way that will lead to humiliation, embarrassment, or rejection.",
+                    "Fear or anxiety is provoked almost always when faced with social situations.",
+                    "Avoidance of social situations or enduring them with significant distress.",
+                    "Fear is disproportionate to the actual threat posed by the social situation.",
+                    "Symptoms are persistent, typically lasting for 6 months or more.",
+                    "The fear, anxiety, or avoidance causes impairment in social, occupational, or other important areas of life.",
+                    "Not attributed to substance use or another medical condition.",
+                    "Not explained by another mental disorder."       
+                ]
+            },
+            {
+                "id": "panic-disorder",
+                "name": "Panic Disorder",
+                "criteria": [
+                    "Recurrent, unexpected panic attacks.",
+                    "At least four of the following symptoms occur during the attack:",
+                    "Palpitations, pounding heart, or increased heart rate.",
+                    "Sweating.",
+                    "Trembling or shaking.",
+                    "Shortness of breath, choking feelings.",
+                    "Chest pain or discomfort.",
+                    "Nausea or abdominal distress.",
+                    "Dizziness, unsteadiness, or feeling faint.",
+                    "Chills or heat sensations.",
+                    "Paresthesias (numbness or tingling).",
+                    "Derealization or depersonalization.",
+                    "Fear of losing control or fear of dying.",
+                    "At least one attack has been followed by persistent worry about future attacks or maladaptive behaviors to avoid attacks.",
+                    "The symptoms are not attributed to a substance or a medical condition.",
+                    "The disturbance is not better explained by another mental disorder.",
+                    "Palpitations, pounding heart, or accelerated heart rate.",
+                    "Sensations of shortness of breath or feeling smothered.",
+                    "Feelings of choking.",
+                    "Paresthesias (numbness or tingling sensations).",
+                    "Derealization (feelings of unreality) or depersonalization (feeling detached from oneself).",
+                    "Fear of losing control or “going crazy.”",
+                    "Fear of dying."
+                ]
+            },
+            {
+                "id": "agoraphobia",
+                "name": "Agoraphobia",
+                "criteria": [
+                    "Fear or anxiety about two or more of the following situations:",
+                    "Public transportation:",
+                    "Open spaces",
+                    "Enclosed spaces",
+                    "Standing in line or being in crowds",
+                    "Being outside the home alone",
+                    "Fear or avoidance of these situations due to concerns about the difficulty of escape or lack of help.",
+                    "Situations provoke fear or anxiety and are either avoided, endured with distress, or require a companion.",
+                    "Fear is out of proportion to the actual threat.",
+                    "The fear or avoidance must be persistent (6 months or more).",
+                    "Distress or impairment in social, occupational, or other important areas of functioning.",
+                    "Excessive fear or anxiety if a medical condition is present.",
+                    "The symptoms are not better explained by another disorder."
+                ]
+            },
+            {
+                "id": "gad",
+                "name": "Generalized Anxiety Disorder (GAD)",
+                "criteria": [
+                    "Excessive worry about a range of events or activities for at least 6 months.",
+                    "Difficulty controlling the worry.",
+                    "Associated with at least three of the following symptoms (in children, only one symptom is required):",
+                    "Restlessness or feeling on edge.",
+                    "Easily fatigued.",
+                    "Difficulty concentrating or mind going blank.",
+                    "Irritability.",
+                    "Muscle tension.",
+                    "Sleep disturbances (difficulty falling asleep, staying asleep, or feeling unrested).",
+                    "The symptoms cause significant distress or impairment in social, occupational, or other important areas of life.",
+                    "The disturbance is not due to substances or other medical conditions.",
+                    "The disturbance is not better explained by another mental disorder.",
+                    "Obsessions:",
+                    "Recurrent, intrusive, and unwanted thoughts, urges, or images.",
+                    "These thoughts cause significant anxiety or distress, and the individual tries to suppress or neutralize them through compulsive behaviors.",
+                    "Compulsions:",
+                    "Repetitive behaviors (e.g., hand washing, checking) or mental acts (e.g., counting, praying).",
+                    "These behaviors are performed to reduce anxiety or prevent some feared event, but they are excessive or not logically connected to the event.",
+                    "Time-consuming:",
+                    "The obsessions or compulsions take more than 1 hour per day or cause significant distress in daily life (e.g., work, relationships).",
+                    "Not attributed to substances:",
+                    "The symptoms cannot be caused by drugs, medications, or medical conditions.",
+                    "Not better explained by another mental disorder:",
+                    "The symptoms should not align more closely with other disorders (e.g., generalized anxiety disorder, trichotillomania, etc.)."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Obsessive-Compulsive and Related Disorders",
+        "disorders": [
+            {
+                "id": "ocd",
+                "name": "Obsessive-Compulsive Disorder (OCD)",
+                "criteria": [
+                    "Preoccupation with perceived defects or flaws in physical appearance that are not noticeable to others.",
+                    "Repetitive behaviors or mental acts in response to the perceived flaws (e.g., mirror checking, grooming, skin picking, comparing appearance to others).",
+                    "The preoccupation causes significant distress or impairment in social, occupational, or other important life areas.",
+                    "The preoccupation is not related to body fat or weight, excluding eating disorders."
+                ]
+            },
+            {
+                "id": "bdd",
+                "name": "Body Dysmorphic Disorder (BDD)",
+                "criteria": [
+                    "Recurrent hair-pulling leading to noticeable hair loss.",
+                    "Repeated attempts to decrease or stop the hair-pulling behavior.",
+                    "The hair-pulling causes clinically significant distress or impairment in daily functioning (e.g., work, social interactions).",
+                    "The behavior is not attributable to another medical condition (e.g., a dermatological condition).",
+                    "The behavior is not better explained by another mental disorder (e.g., body dysmorphic disorder)."
+                ]
+            },
+            {
+                "id": "trichotillomania (hair-pulling-disorder)",
+                "name": "Trichotillomania (Hair-Pulling Disorder)",
+                "criteria": [
+                    "Recurrent skin picking, leading to visible skin lesions.",
+                    "Repeated attempts to decrease or stop skin picking.",
+                    "The behavior causes clinically significant distress or impairment in daily life (e.g., social or work-related problems).",
+                    "The skin-picking is not caused by substances or another medical condition.",
+                    "The skin-picking is not explained by other mental disorders, such as psychotic disorders or body dysmorphic disorder."
+                ]
+            },
+            {
+                "id": "excoriation (skin-picking)-disorder",
+                "name": "Excoriation (Skin-Picking) Disorder",
+                "criteria": [
+                    "Recurrent skin picking, leading to visible skin lesions.",
+                    "Repeated attempts to decrease or stop skin picking.",
+                    "The behavior causes clinically significant distress or impairment in daily life (e.g., social or work-related problems).",
+                    "The skin-picking is not caused by substances or another medical condition.",
+                    "The skin-picking is not explained by other mental disorders, such as psychotic disorders or body dysmorphic disorder."
+                ]
+            }
+        ]
+    },
+    
+    {
+        "category": "Trauma- and Stressor-Related Disorders",
+        "disorders": [
+            {
+                "id": "ptsd",
+                "name": "Posttraumatic Stress Disorder (PTSD)",
+                "criteria": [
+                    "Intrusive symptoms: The individual must experience one or more of the following intrusion symptoms associated with the trauma:",
+                    "Recurrent distressing memories of the traumatic event(s).",
+                    "Recurrent distressing dreams related to the trauma.",
+                    "Dissociative reactions (e.g., flashbacks) where the individual feels or acts as though the trauma is recurring.",
+                    "Intense psychological distress when exposed to reminders of the trauma.",
+                    "Marked physiological reactions to reminders of the trauma.",
+                    "Avoidance symptoms: The individual must display persistent avoidance of stimuli related to the trauma, evidenced by one or both of the following:",
+                    "Avoiding memories, thoughts, or feelings about the trauma.",
+                    "Avoiding external reminders (e.g., people, places, activities) that bring up memories of the trauma.",
+                    "Negative alterations in mood and cognition: The individual must experience two or more of the following symptoms related to negative thoughts and feelings after the trauma:",
+                    "Inability to remember an important aspect of the trauma (due to dissociative amnesia).",
+                    "Negative beliefs or expectations about oneself, others, or the world.",
+                    "Distorted thoughts about the cause or consequences of the trauma, leading the person to blame themselves or others.",
+                    "Negative emotional state (e.g., fear, guilt, shame).",
+                    "Diminished interest in significant activities.",
+                    "Feelings of detachment or estrangement from others.",
+                    "Inability to experience positive emotions (e.g., happiness, satisfaction)."
+                ]
+            },
+            {
+                "id": "asd",
+                "name": "Acute Stress Disorder (ASD)",
+                "criteria": [
+                    "Presence of symptoms: The individual must have nine or more symptoms from five categories: Intrusion, Negative Mood, Dissociation, Avoidance, and Arousal. These symptoms begin or worsen after the traumatic event.",
+                    "Intrusion symptoms:",
+                    "Recurrent, involuntary, and intrusive memories of the trauma.",
+                    "Distressing dreams related to the trauma.",
+                    "Flashbacks (dissociative reactions) where the individual feels or acts as if the trauma is recurring.",
+                    "Intense psychological distress or physiological reactions in response to cues that resemble aspects of the trauma.",
+                    "Negative Mood:",
+                    "Inability to experience positive emotions (e.g., happiness, satisfaction).",
+                    "Dissociative Symptoms:",
+                    "Altered sense of reality (e.g., seeing oneself from another’s perspective, feeling detached).",
+                    "Inability to remember important aspects of the trauma (dissociative amnesia).",
+                    "Avoidance Symptoms:",
+                    "Avoidance of distressing memories or thoughts related to the trauma.",
+                    "Avoidance of external reminders (people, places, activities) that bring up memories of the trauma.",
+                    "Arousal Symptoms:",
+                    "Sleep disturbances (e.g., difficulty falling or staying asleep).",
+                    "Irritable behavior or angry outbursts (e.g., verbal or physical aggression).",
+                    "Hypervigilance (e.g., being excessively alert or watchful).",
+                    "Difficulty concentrating.",
+                    "Exaggerated startle response.",
+                    "Duration of symptoms: The symptoms must last from 3 days to 1 month after trauma exposure.",
+                    "Distress or impairment: The disturbance must cause clinically significant distress or impairment in social, occupational, or other important areas of functioning.",
+                    "Not attributable to substances or medical conditions: The disturbance must not be caused by the physiological effects of substances (e.g., medication, alcohol) or another medical condition (e.g., mild traumatic brain injury), and is not better explained by brief psychotic disorder."
+                ]
+            },
+            {
+                "id": "adjustment-disorders",
+                "name": "Adjustment Disorders",
+                "criteria": [
+                    "Emotional or behavioral symptoms in response to an identifiable stressor that occurred within 3 months of the stressor’s onset.",
+                    "Marked distress that is out of proportion to the severity of the stressor.",
+                    "Significant impairment in social, occupational, or other important areas of functioning.",
+                    "The symptoms do not meet the criteria for another mental disorder and are not an exacerbation of a preexisting condition.",
+                    "The symptoms do not represent normal bereavement or prolonged grief disorder.",
+                    "Symptoms should resolve within 6 months after the termination of the stressor or its consequences."
+                ]
+            },
+            {
+                "id": "prolonged-grief-disorder",
+                "name": "Prolonged Grief Disorder",
+                "criteria": [
+                    "Additional symptoms: At least three of the following symptoms must be present most days to a clinically significant degree and have occurred nearly every day for at least the last month:",
+                    "Identity disruption (e.g., feeling as if part of oneself has died).",
+                    "Marked disbelief about the death.",
+                    "Avoidance of reminders that the person is deceased (in children, this may involve efforts to avoid reminders).",
+                    "Intense emotional pain (e.g., anger, sorrow, bitterness).",
+                    "Difficulty reintegrating into relationships and activities (e.g., trouble engaging with friends or planning for the future).",
+                    "Emotional numbness, with a marked reduction in emotional experiences since the death.",
+                    "Feelings of meaninglessness or hopelessness as a result of the death.",
+                    "Intense loneliness related to the death.",
+                    "Distress and impairment: The symptoms must cause clinically significant distress or impairment in social, occupational, or other important areas of functioning.",
+                    "Exceeds cultural norms: The duration and severity of the grief response must clearly exceed what is expected by social, cultural, or religious norms for the individual’s culture.",
+                    "Exclusion of other mental disorders: The symptoms are not better explained by other mental disorders (e.g., major depressive disorder, PTSD) and are not attributable to the effects of substances or another medical condition.",
+                    "Intense yearning/longing for the deceased.",
+                    "Preoccupation with thoughts or memories of the deceased (children may focus on the circumstances of death).",
+                    "Identity disruption, feeling that part of oneself has died.",
+                    "Marked disbelief about the death.",
+                    "Avoidance of reminders that the person is deceased.",
+                    "Intense emotional pain related to the death.",
+                    "Difficulty reintegrating into relationships and activities.",
+                    "Emotional numbness, with a reduction in emotional experience.",
+                    "Feelings of meaninglessness or hopelessness.",
+                    "Intense loneliness related to the loss."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Feeding and Eating Disorders",
+        "disorders": [
+            {
+                "id": "pica",
+                "name": "Pica",
+                "criteria": [
+                    "Persistent eating of nonnutritive, nonfood substances for at least 1 month.",
+                    "The behavior is inappropriate for the person’s developmental stage.",
+                    "The behavior is not culturally or socially normative.",
+                    "The eating behavior is severe enough to require clinical attention if it occurs in the context of another mental or medical condition."
+                ]
+            },
+            {
+                "id": "rumination-disorder",
+                "name": "Rumination Disorder",
+                "criteria": [
+                    "Repeated regurgitation of food for at least 1 month.",
+                    "The regurgitated food may be re-chewed, re-swallowed, or spit out.",
+                    "The behavior is not attributable to gastrointestinal or other medical conditions (e.g., reflux or stenosis).",
+                    "The behavior is not part of anorexia nervosa, bulimia nervosa, binge-eating disorder, or avoidant/restrictive food intake disorder.",
+                    "If the symptoms occur with another mental disorder (e.g., intellectual disability), the behavior is severe enough to warrant additional clinical attention."
+                ]
+            },
+            {
+                "id": "arfid",
+                "name": "Avoidant/Restrictive Food Intake Disorder (ARFID)",
+                "criteria": [
+                    "Eating or feeding disturbances (e.g., lack of interest, avoidance based on sensory qualities, or fear of consequences of eating).",
+                    "Significant weight loss, failure to gain expected weight, or growth faltering in children.",
+                    "Significant nutritional deficiency.",
+                    "Dependence on enteral feeding or oral nutritional supplements.",
+                    "Marked interference with psychosocial functioning (social or emotional difficulties related to food).",
+                    "The disturbance is not explained by a lack of food, cultural practices, or another mental disorder.",
+                    "No body image disturbance is involved, as seen in anorexia or bulimia nervosa."
+                ]
+            },
+            {
+                "id": "anorexia-nervosa",
+                "name": "Anorexia Nervosa",
+                "criteria": [
+                    "Severe restriction of energy intake leading to significantly low body weight relative to age, sex, and health norms.",
+                    "Intense fear of gaining weight or of becoming fat, resulting in behaviors to avoid weight gain, despite being underweight.",
+                    "Distorted perception of body weight and shape: This includes undue influence of body weight or shape on self-evaluation and a persistent failure to recognize the seriousness of the low body weight."
+                ]
+            },
+            {
+                "id": "bulimia-nervosa",
+                "name": "Bulimia Nervosa",
+                "criteria": [
+                    "Recurrent binge eating episodes characterized by:",
+                    "Eating an excessive amount of food (in a short period, such as within 2 hours).",
+                    "Lack of control over eating during the episode.",
+                    "Inappropriate compensatory behaviors to prevent weight gain, such as:",
+                    "Self-induced vomiting.",
+                    "Misuse of laxatives, diuretics, or other medications.",
+                    "Fasting or excessive exercise.",
+                    "Occurrence:",
+                    "Both binge eating and compensatory behaviors occur at least once a week for 3 months.",
+                    "Self-evaluation:",
+                    "Undue influence on self-evaluation by body weight and shape.",
+                    "Not Exclusive to Anorexia Nervosa:",
+                    "The disturbance is not limited to episodes of anorexia nervosa."
+                ]
+            },
+            {
+                "id": "binge-eating disorder",
+                "name": "Binge-Eating Disorder",
+                "criteria": [
+                    "Recurrent binge eating episodes characterized by:",
+                    "Eating a significantly larger amount of food than most people would in a similar period.",
+                    "Lack of control over eating during the episode.",
+                    "Associated behaviors with binge eating episodes, including:",
+                    "Eating much more rapidly than normal.",
+                    "Eating until feeling uncomfortably full.",
+                    "Eating large amounts of food when not hungry.",
+                    "Eating alone due to embarrassment.",
+                    "Feeling disgusted, depressed, or guilty afterward.",
+                    "Marked distress regarding binge eating.",
+                    "Frequency:",
+                    "Binge eating episodes occur at least once a week for 3 months.",
+                    "No compensatory behaviors such as purging or excessive exercise, distinguishing it from bulimia nervosa."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Sleep-Wake Disorders",
+        "disorders": [
+            {
+                "id": "insomnia-disorder",
+                "name": "Insomnia Disorder",
+                "criteria": [
+                    "Dissatisfaction with Sleep due to:",
+                    "Difficulty initiating sleep.",
+                    "Difficulty maintaining sleep, with frequent awakenings.",
+                    "Early-morning awakening with inability to return to sleep.",
+                    "Clinically Significant Distress or Impairment in social, occupational, educational, or other important areas of functioning.",
+                    "Frequency:",
+                    "Sleep disturbance occurs at least 3 nights per week.",
+                    "Duration:",
+                    "The sleep difficulty persists for at least 3 months.",
+                    "Exclusion of Other Sleep Disorders:",
+                    "The sleep difficulty is not explained by another sleep disorder or substance use."
+                ]
+            },
+            {
+                "id": "hypersomnolence-disorder",
+                "name": "Hypersomnolence Disorder",
+                "criteria": [
+                    "Excessive sleepiness despite adequate sleep (7 hours or more).",
+                    "Recurrent daytime sleep episodes or lapses into sleep.",
+                    "A prolonged, nonrestorative sleep lasting more than 9 hours per day.",
+                    "Difficulty staying awake after abrupt awakening.",
+                    "Frequency: Hypersomnolence occurs at least 3 times per week for 3 months.",
+                    "Significant distress or impairment in areas such as cognitive, social, or occupational functioning.",
+                    "Exclusion of other sleep disorders or substances as the cause."
+                ]
+            },
+            {
+                "id": "obstructive-sleep-apnea-hypopnea",
+                "name": "Obstructive Sleep Apnea Hypopnea",
+                "criteria": [
+                    "Nocturnal breathing disturbances (snoring, snorting/gasping, or breathing pauses).",
+                    "Daytime sleepiness, fatigue, or unrefreshing sleep despite sufficient opportunities for sleep.",
+                    "Polysomnography shows at least five apneas or hypopneas per hour of sleep, with or without the symptoms above.",
+                    "Severity Specifiers:",
+                    "Mild: Apnea hypopnea index < 15.",
+                    "Moderate: Apnea hypopnea index 15–30.",
+                    "Severe: Apnea hypopnea index > 30.",
+                    "The severity is based on the number of apneas and hypopneas measured per hour of sleep, which is typically done via polysomnography or other sleep monitoring techniques."
+                ]
+            },
+            {
+                "id": "central-sleep-apnea",
+                "name": "Central Sleep Apnea",
+                "criteria": [
+                    "Central apneas (pauses in breathing) occurring at least five times per hour of sleep.",
+                    "The breathing pauses are not due to airway obstruction."
+                ]
+            },
+            {
+                "id": "circadian-rhythm-sleep-wake-disorders",
+                "name": "Circadian Rhythm Sleep-Wake Disorders",
+                "criteria": [
+                    "Persistent or recurrent sleep disruption primarily due to circadian misalignment.",
+                    "Excessive sleepiness or insomnia due to the disruption.",
+                    "Significant impairment in social, occupational, or other important areas of functioning."
+                ]
+            },
+            {
+                "id": "parasomnias",
+                "name": "Parasomnias",
+                "criteria": [
+                    "Recurrent episodes of incomplete awakening during the first third of the sleep cycle, leading to:",
+                    "Sleepwalking: Repeated walking while asleep, often accompanied by a blank stare, lack of responsiveness, and difficulty awakening.",
+                    "Sleep Terrors: Abrupt terror arousals from sleep, often characterized by a panicked scream, intense fear, and signs of autonomic arousal (e.g., tachycardia, rapid breathing, sweating).",
+                    "No dream imagery recall, or only a single scene.",
+                    "Amnesia for the episodes.",
+                    "The episodes cause clinically significant distress or impairment in social, occupational, or other important areas of functioning.",
+                    "The disturbance is not caused by substances or another medical condition."
+                ]
+            },
+            {
+                "id": "nightmare-disorder",
+                "name": "Nightmare Disorder",
+                "criteria": [
+                    "Repeated occurrences of disturbing dreams typically involving threats to survival, security, or physical integrity, with extreme dysphoria.",
+                    "Nightmares occur during the second half of the major sleep episode.",
+                    "Rapid orientation and alertness upon waking from the nightmares.",
+                    "The nightmares cause clinically significant distress or impairment in social, occupational, or other areas of functioning.",
+                    "Not attributable to substance effects or coexisting medical/mental conditions."
+                ]
+            }
+        ]
+    }
+
+]
