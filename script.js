@@ -1,9 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
+    const disorderList = document.getElementById("disorder-list");
+    const modalContainer = document.getElementById("modal-container");
+    const modalTitle = document.getElementById("modal-title");
+    const modalCriteria = document.getElementById("modal-criteria");
+    const closeModalBtn = document.getElementById("close-modal");
+
+    // Load disorders from JSON
     fetch("disorders.json")
         .then(response => response.json())
         .then(data => {
-            const disorderList = document.getElementById("disorder-list");
-
             data.forEach(category => {
                 // Create category header
                 const categoryHeader = document.createElement("li");
@@ -27,45 +32,54 @@ document.addEventListener("DOMContentLoaded", function () {
                     disorderList.appendChild(listItem);
                 });
             });
-
-            // Attach event listener to dynamically created buttons
-            document.querySelectorAll(".view-btn").forEach(button => {
-                button.addEventListener("click", function () {
-                    openModal(this.getAttribute("data-id"));
-                });
-            });
         })
         .catch(error => console.error("Error loading JSON:", error));
-});
 
-// Function to display the disorder's criteria in a modal
-function openModal(disorderId) {
-    fetch("disorders.json")
-        .then(response => response.json())
-        .then(data => {
-            let disorder = null;
-            data.forEach(category => {
-                category.disorders.forEach(d => {
-                    if (d.id === disorderId) {
-                        disorder = d;
-                    }
+    // Event delegation for dynamically added buttons
+    disorderList.addEventListener("click", function (event) {
+        if (event.target.classList.contains("view-btn")) {
+            const disorderId = event.target.getAttribute("data-id");
+            openModal(disorderId);
+        }
+    });
+
+    // Function to display disorder criteria in modal
+    function openModal(disorderId) {
+        fetch("disorders.json")
+            .then(response => response.json())
+            .then(data => {
+                let disorder = null;
+                data.forEach(category => {
+                    category.disorders.forEach(d => {
+                        if (d.id === disorderId) {
+                            disorder = d;
+                        }
+                    });
                 });
-            });
 
-            if (disorder) {
-                document.getElementById("modal-title").textContent = disorder.name;
-                document.getElementById("modal-criteria").innerHTML = disorder.criteria
-                    .map(item => `<li>${item}</li>`)
-                    .join("");
+                if (disorder) {
+                    modalTitle.textContent = disorder.name;
+                    modalCriteria.innerHTML = disorder.criteria
+                        .map(item => `<li>${item}</li>`)
+                        .join("");
 
-                // Show modal
-                document.getElementById("modal-container").style.display = "flex";
-            }
-        })
-        .catch(error => console.error("Error loading disorder details:", error));
-}
+                    // Show modal
+                    modalContainer.style.display = "flex";
+                }
+            })
+            .catch(error => console.error("Error loading disorder details:", error));
+    }
 
-// Function to close the modal
-document.getElementById("close-modal").addEventListener("click", function () {
-    document.getElementById("modal-container").style.display = "none";
+    // Close modal when clicking the button
+    closeModalBtn.addEventListener("click", function () {
+        modalContainer.style.display = "none";
+    });
+
+    // Close modal when clicking outside the modal content
+    modalContainer.addEventListener("click", function (event) {
+        if (event.target === modalContainer) {
+            modalContainer.style.display = "none";
+        }
+    });
 });
+
